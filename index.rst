@@ -1,4 +1,4 @@
-Welcome to Energy Monitor's Documentation! Test
+Welcome to Energy Monitor's Documentation! Test2
 ==========================================
 
 .. toctree::
