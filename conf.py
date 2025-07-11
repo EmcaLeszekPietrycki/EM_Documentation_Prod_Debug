@@ -42,4 +42,10 @@ htmlhelp_basename = 'energymonitor'
 
 latex_documents = [
     ('index', 'energymonitor.tex', 'Energy Monitor Documentation', '', 'manual'),
+    'preamble': r'''
+        \usepackage{amssymb}
+        \usepackage{newunicodechar}
+        \newunicodechar{⬜}{\square}
+        \newunicodechar{✅}{\checkmark}
+    '''
 ]
