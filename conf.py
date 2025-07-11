@@ -40,11 +40,6 @@ htmlhelp_basename = 'energymonitor'
 
 # -- LaTeX output -------------------------------------------------------------
 
-latex_elements = {
-    'preamble': r'''
-\usepackage{amssymb}
-\usepackage{newunicodechar}
-\newunicodechar{⬜}{\square}
-\newunicodechar{✅}{\checkmark}
-'''
-}
+latex_documents = [
+    ('index', 'energymonitor.tex', 'Energy Monitor Documentation', '', 'manual'),
+]
